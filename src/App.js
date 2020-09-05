@@ -2,6 +2,8 @@ import * as React from 'react';
 import useStyles  from './styles';
 import Grid from '@material-ui/core/Grid';
 import Sidebar from './Sidebar/Sidebar';
+import Header from './Header/Header';
+
 const App = ({}) => {   
    
   const style = useStyles();
@@ -13,7 +15,9 @@ const App = ({}) => {
           <Sidebar />
         </Grid>
         <Grid item xs={11}>
+          <Header />
 
+          
         </Grid>
      </Grid>
     </div>
