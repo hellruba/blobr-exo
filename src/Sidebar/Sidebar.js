@@ -1,6 +1,7 @@
 import * as React from 'react';
 import useStyles from './styles';
 import Account from '../Account/Account';
+import MenuSection from '../MenuSection/MenuSection';
 
 const Sidebar = ({}) => {
 
@@ -8,6 +9,7 @@ const Sidebar = ({}) => {
     return (
         <div className={styles.backgroundSidebar}>
             <Account />
+            <MenuSection />
         </div>
     )
 }
