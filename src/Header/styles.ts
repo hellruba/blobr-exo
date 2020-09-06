@@ -6,7 +6,8 @@ const useStyles = makeStyles({
         display: 'flex',
         height:  '12%',
         backgroundColor: 'white',
-        alignItems: 'center'
+        alignItems: 'center',
+
     },
     title: {
         color: 'black',

@@ -26,23 +26,23 @@ const MenuItem = ({
     }
     const getIcons = () => {
 
-        if (menuText == 'Get started')
+        if (menuText === 'Get started')
         {
             return <House />
         }
-        if (menuText == 'Transactions')
+        if (menuText === 'Transactions')
         {
             return <Transactions />
         }
-        if (menuText == 'Statistics')
+        if (menuText === 'Statistics')
         {
             return <Statistics />
         }
-        if (menuText == 'Settings')
+        if (menuText === 'Settings')
         {
             return <Settings />
         }
-        if (menuText == 'Help center')
+        if (menuText === 'Help center')
         {
             return <Help />
         }
@@ -54,7 +54,9 @@ const MenuItem = ({
         onMouseOver={MouseOver}
         onMouseOut={MouseOut}
     >
+        <div className={styles.iconContainer}>
         {Icon}
+        </div> 
         <div className={styles.text}>
         {menuText}
         </div>

@@ -3,6 +3,7 @@ import useStyles  from './styles';
 import Grid from '@material-ui/core/Grid';
 import Sidebar from './Sidebar/Sidebar';
 import Header from './Header/Header';
+import DateSection from './DateSection/DateSection';
 
 const App = ({}) => {   
    
@@ -16,7 +17,7 @@ const App = ({}) => {
         </Grid>
         <Grid item xs={11}>
           <Header />
-
+          <DateSection />
           
         </Grid>
      </Grid>
