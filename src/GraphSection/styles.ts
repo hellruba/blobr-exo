@@ -4,17 +4,12 @@ const useStyles = makeStyles({
 
     container: {
         display: 'flex',
-        height:  '5%',
         backgroundColor: 'white',
-        alignItems: 'center',
+        marginTop: '30px',
+        marginBottom: '20px',
+        height: '300px',
 
     },
-    title: {
-        color: 'black',
-        paddingLeft: '30px',
-        fontWeight: 'bold',
-        fontSize: '18px'
-    }
 });
 
 export default useStyles;

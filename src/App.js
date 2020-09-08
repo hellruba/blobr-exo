@@ -4,6 +4,9 @@ import Grid from '@material-ui/core/Grid';
 import Sidebar from './Sidebar/Sidebar';
 import Header from './Header/Header';
 import DateSection from './DateSection/DateSection';
+import MonthSection from './MonthSection/MonthSection';
+import GraphSection from './GraphSection/GraphSection';
+import StatisticSection from './StatisticSection/StatisticSection';
 
 const App = ({}) => {   
    
@@ -18,7 +21,9 @@ const App = ({}) => {
         <Grid item xs={11}>
           <Header />
           <DateSection />
-          
+          <MonthSection />
+          <GraphSection />
+          <StatisticSection />
         </Grid>
      </Grid>
     </div>
