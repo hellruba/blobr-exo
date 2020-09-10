@@ -16,14 +16,10 @@ const MenuItem = ({
 }) => {
 
 
-    const [onHover, setOnHover] = useState(false);
+    
     const styles = useStyles();
-    const MouseOver = () => {
-        setOnHover(true);
-    }
-    const MouseOut = () => {
-        setOnHover(false);
-    }
+  
+    const onHover = menuText === 'Statistics';
     const getIcons = () => {
 
         if (menuText === 'Get started')
@@ -51,8 +47,6 @@ const MenuItem = ({
 
     return (
     <div className={onHover ? styles.menuItemsOver : styles.menuItems}
-        onMouseOver={MouseOver}
-        onMouseOut={MouseOut}
     >
         <div className={styles.iconContainer}>
         {Icon}

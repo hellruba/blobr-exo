@@ -1,10 +1,16 @@
-import * as React from 'react';
+import React, { useState } from 'react';
 import useStyles from './styles';
-import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
+import { ReactComponent as ArrowDown }  from '../icons/angle-down.svg';
+import AccountSettings from '../AccountSettings/AccountSettings';
 
 const Account = ({}) => {
 
+    const [toShow, SettoShow] = useState(false);
     const styles = useStyles();
+
+    const onClick = () => {
+        SettoShow(!toShow);
+    }
     return (
         <div className={styles.backgroundContainer}>
             <div className={styles.title}>
@@ -13,9 +19,10 @@ const Account = ({}) => {
             <div className={styles.container}>
                 <div className={styles.userName}>Mike Ross</div>
                 <div className={styles.arrowContainer}>
-                    <ArrowDropDownIcon />
+                    <ArrowDown onClick={onClick}/>
                 </div>
             </div>
+            <AccountSettings toShow={toShow}/>
         </div>
     )
 }

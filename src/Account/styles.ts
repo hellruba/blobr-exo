@@ -24,7 +24,8 @@ const useStyles = makeStyles({
         color: '#b3b3b3',
         position: 'relative',
         left: '40%',
-        top: '-3px'
+        top: '-3px',
+        cursor: 'pointer'
     }
 
 });
