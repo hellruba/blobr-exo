@@ -7,6 +7,7 @@ import DateSection from './DateSection/DateSection';
 import MonthSection from './MonthSection/MonthSection';
 import GraphSection from './GraphSection/GraphSection';
 import StatisticSection from './StatisticSection/StatisticSection';
+import ReviewSection from './ReviewSection/ReviewSection';
 
 const App = ({}) => {   
    
@@ -24,6 +25,7 @@ const App = ({}) => {
           <MonthSection />
           <GraphSection />
           <StatisticSection />
+          <ReviewSection />
         </Grid>
      </Grid>
     </div>
