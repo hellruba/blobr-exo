@@ -10,6 +10,14 @@ const useStyles = makeStyles({
         height: '300px',
 
     },
+    circle_style: {
+        borderRadius: '50%',
+        color: '#59BBFF',
+        width: '7px',
+        height: '7px',
+        border: '1px solid',
+        display: 'flex'
+    }
 });
 
 export default useStyles;

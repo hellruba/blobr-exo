@@ -9,12 +9,13 @@ const useStyles = makeStyles({
         fontSize: '21px',
         color: 'black',
         marginTop: '10px',
-        marginLeft: '30px',
+        marginLeft: '85px',
         marginBottom: '10px',
         fontWeight: 'bold'
     },
     gridContainer: {
         display: 'flex',
+        justifyContent: 'space-around'
     },
     flex_container: {
         display:'flex',
@@ -27,11 +28,12 @@ const useStyles = makeStyles({
     transactionText: {
        color: 'grey',
        fontWeight: 'normal',
-       fontSize: '11px'
+       fontSize: '12px',
+       fontFamily: 'Inter',
+       lineHeight: '15px'
     },
     bottomCard: {
         padding: '7px',
-        maxWidth: '300px',
         borderTopRightRadius: '0px',
         borderTopLeftRadius: '0px',
         fontSize: '14px',
@@ -48,7 +50,6 @@ const useStyles = makeStyles({
         display: 'flex',
         fontWeight: 'bold',
         padding: '7px',
-        maxWidth: '300px',
         borderBottomLeftRadius: '0px',
         borderBottomRightRadius: '0px',
         fontSize: '13px'
@@ -56,7 +57,7 @@ const useStyles = makeStyles({
     values_container: {
         display: 'flex',
         padding: '7px',
-        maxWidth: '300px',
+        
         borderRadius: '0px',
         fontSize: '20px',
         fontWeight: 'bold'

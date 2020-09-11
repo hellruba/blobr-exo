@@ -8,44 +8,49 @@ const useStyles = makeStyles({
         fontSize: '20px',
         fontWeight: 'bold',
         marginTop: '10px',
-        marginLeft: '30px',
+        marginLeft: '85px',
         marginBottom: '10px'
     },
     date_container:{
         width: '200px',
         padding: '5px',
-        fontWeight: 'bold'
+        fontWeight: 'bold',
+        paddingRight: '30px'
     },
     date_title_container:
     {
         width: '200px',
         padding: '5px',
         color: 'grey',
-        fontSize: '11px'
+        paddingRight: '30px',
+        fontSize: '14px',
+        fontFamily: 'Inter',
+        fontWeight: 'normal',
+        fontStyle: 'normal'
     },
     first_card: {
         display: 'flex',
-        marginLeft: '30px',
-        width: '875px',
+        marginLeft: '85px',
+        width: '1615px',
         borderBottomLeftRadius: '0px',
         borderBottomRightRadius: '0px',
     },
     last_card: {
         display: 'flex',
-        marginLeft: '30px',
-        width: '875px',
+        marginLeft: '85px',
+        width: '1615px',
         borderTopLeftRadius: '0px',
         borderTopRightRadius: '0px'
     },
     cardContainer: {
         display: 'flex',
-        marginLeft: '30px',
-        width: '875px',
+        marginLeft: '85px',
+        width: '1615px',
         borderRadius: '0px'
     },
     transactions_font: {
         color: 'grey',
-        fontSize: '11px',
+        fontSize: '12px',
         fontWeight: 'normal'
     },
     revenue_container: {
@@ -53,7 +58,8 @@ const useStyles = makeStyles({
         fontWeight: 'bold',
         width: '200px',
         fontFamily: 'Inter',
-        padding: '5px', 
+        padding: '5px',
+        paddingRight: '300px',
         alignItems: 'center',
         justifyContent: 'space-around'
     },
@@ -69,6 +75,7 @@ const useStyles = makeStyles({
         fontWeight: 'bold',
         fontFamily: 'Inter',
         padding: '5px',
+        paddingRight: '300px',
         justifyContent: 'space-around',
         alignItems: 'center',
     },

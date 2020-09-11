@@ -6,7 +6,7 @@ const useStyles = makeStyles({
         display: 'flex',
         justifyContent: 'right',
         marginTop: '50px',
-        marginRight: '30px'
+        marginRight: '60px'
     },
     leftCard: {
         borderBottomRightRadius: '0px',
@@ -20,14 +20,20 @@ const useStyles = makeStyles({
         borderBottomLeftRadius: '0px',
     },
     textStyle: {
-        fontSize: '11px',
-        color: 'grey',
-        padding: '6px'
+        fontSize: '14px',
+        color: '#4D4D4D',
+        padding: '6px',
+        fontStyle: 'normal',
+        fontWeight: 'normal',
+        fontFamily: 'Inter'
     },
     textSelectedStyle: {
         color: '#0071f2',
-        fontSize: '11px',
-        padding: '6px'
+        fontSize: '14px',
+        padding: '6px',
+        fontStyle: 'normal',
+        fontWeight: 'normal',
+        fontFamily: 'Inter'
     }
 });
 
