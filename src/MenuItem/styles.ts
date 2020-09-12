@@ -21,7 +21,10 @@ const useStyles = makeStyles({
     text: {
         color: 'white',
         paddingLeft: '10px',
-        fontSize: '12px'
+        fontSize: '12px',
+        fontFamily: 'Inter',
+        fontWeight: 500,
+        fontStyle: 'normal'
     }
 });
 

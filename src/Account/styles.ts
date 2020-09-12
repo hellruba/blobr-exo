@@ -9,6 +9,10 @@ const useStyles = makeStyles({
         color: 'white',
         fontSize: '15px',
         textAlign: 'center',
+        fontFamily: 'Inter',
+        fontStyle: 'normal',
+        fontWeight: 'bold',
+        lineHeight: '24px',
         paddingTop: '10px'
     },
     container: {
@@ -18,7 +22,9 @@ const useStyles = makeStyles({
         color: '#39a34b',
         fontSize: '12px',
         paddingLeft: '15px',
-
+        fontFamily: 'Inter',
+        fontStyle: 'normal',
+        fontWeight: 500
     },
     arrowContainer: {
         color: '#b3b3b3',

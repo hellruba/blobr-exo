@@ -18,7 +18,10 @@ const useStyles = makeStyles({
     },
     textContainer: {
         fontSize: '14px',
-        paddingLeft: '5px'
+        paddingLeft: '5px',
+        fontFamily: 'Inter',
+        fontWeight: 500,
+        fontStyle: 'normal'
     }
 });
 export default useStyles;

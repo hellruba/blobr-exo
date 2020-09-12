@@ -9,13 +9,16 @@ const useStyles = makeStyles({
         fontWeight: 'bold',
         marginTop: '10px',
         marginLeft: '85px',
-        marginBottom: '10px'
+        marginBottom: '10px',
+        fontFamily: 'Inter',
+        fontStyle: 'normal'
     },
     date_container:{
         width: '200px',
         padding: '5px',
         fontWeight: 'bold',
-        paddingRight: '30px'
+        paddingRight: '30px',
+        fontFamily: 'Inter'
     },
     date_title_container:
     {
